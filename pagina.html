@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composition</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+
+        #Header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            font-family: "Encode Sans";
+            font-stretch: normal;
+
+        }
+
+        #Enlaces {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #Enlaces a {
+            background-color: #e1494b;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        #PARTE1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Latin Modern Roman 10";
+            font-style: oblique;
+        }
+
+        #PARTE1 H3 {
+            font-size: 25px;
+            font-weight: 50;
+            max-width: 50%;
+        }
+
+        #PARTE1 img {
+            width: 960px;
+            height: 350px;
+        }
+
+        #OURSERVICES {
+        display: flex;
+        justify-content: center;
+        
+        }
+        
+        #OURSERVICES H3 {
+        padding: 10px 30px;
+        background-color:  #e1494b;
+        border-radius: 10px;
+        color: white;
+
+        }
+
+        #PARTE2 {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        #PARTE2 h5{
+            margin-left: 10px;
+        }
+        .wrap{
+            display: flex;
+        align-items: center;
+        }
+        #OURPLAYERS {
+        display: flex;
+        justify-content: center;
+        
+        }
+        
+        #OURPLAYERS H3 {
+        padding: 10px 30px;
+        background-color:  #e1494b;
+        border-radius: 10px;
+        color: white;
+
+        }
+
+
+        #PARTE3 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+        }
+        #LATESTWORK {
+        display: flex;
+        justify-content: center;
+        
+        }
+        
+        #LATESTWORK H3 {
+        padding: 10px 30px;
+        background-color:  #e1494b;
+        border-radius: 10px;
+        color: white;
+
+        }
+        #PARTE4 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        
+
+
+        
+
+        #h2our-players {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        #h2latestwork {
+            display: flex;
+            justify-content: center;
+            color: white;
+
+        }
+
+        h2 {
+            background-color: #e1494b;
+            padding: 10px 30px 10px 30px;
+            border-radius: 10px;
+        }
+
+        h4 {
+            color: #e1494b;
+        }
+
+        .div-parte2 {
+            width: 25%;
+        }
+
+        .div-parte3 {
+            width: 25%;
+        }
+
+
+        .read-more {
+            background-color: white;
+
+        }
+
+        .PRIMERACOLUMNA {
+        Display: flex;
+        justify-content: space-evenly;
+
+        }
+        .PRIMERACOLUMNA img{
+        width: 107px;
+        height: 107px;
+        padding: 5px;
+        border: 2px solid #ccc;
+        }
+        #footermain {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #e2e2e2;
+        }
+        #columna2 {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 40%;
+        }
+        #columna2 div {
+            max-width: 207px;
+        }
+        a {
+            color: #e1494b;
+            background-color: white;
+            text-decoration: none;
+        }
+
+        #copy {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #hr {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+    <Header>
+        <div id="Header">
+            <div id="Titulo">
+                <h1>Composition</h1>
+                <h3>Free PSD Website Template</h3>
+            </div>
+            <div id="Enlaces">
+                <a href="">HOMEPAGE</a>
+                <a href="">STYLE DEMO</a>
+                <a href="">FULL WIDTH</a>
+                <a href="">DROPDOWN</a>
+                <a href="">LINKTEXT</a>
+
+            </div>
+        </div>
+
+    </Header>
+
+    <hr />
+    <main>
+        <div id="PARTE1">
+                <h3>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit velit eveniet repellendus odio
+                    assumenda, alias quam blanditiis doloremque ex est.""
+                </h3>
+                <img src="Copia de antelope-canyon-arizona-beam-33041.jpg" alt="antelope"
+                    style="widows: 960px; height:350px">
+
+        </div>
+
+        <div>
+
+            <div id="OURSERVICES">
+                <div id="h2our-services">
+                    <h3>OUR SERVICES</h3>
+                </div>
+            </div>
+
+            <div id="PARTE2">
+                <div class="div-parte2">
+                    <div>
+                    <div class="wrap">
+                        <img src="Copia de medal.png" alt="medal">
+                        <h5>Lorem, ipsum.</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">Read more>></a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="div-parte2">
+                    <div class="wrap">
+                        <img src="Copia de strategy-2.png" alt="strategy-2">
+                        <h5>Lorem, ipsum.</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">Read more>></a>
+                    </div>
+                </div>
+
+                <div class="div-parte2">
+                    <div class="wrap">
+                        <img src="Copia de strategy.png" alt="strategy">
+                        <h5>Lorem, ipsum.</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">Read more>></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+
+            <div id="OURPLAYERS">
+                <div id="h2our-players">
+                    <h3>OUR PLAYERS</h3>
+                </div>
+            </div>
+
+            <div id="PARTE3">
+                <div class="div-parte3">
+                    <img src="Copia de adult-attractive-beautiful-415829.jpg" alt="">
+                    <h3>Name: John Doe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">View Profile>></a>
+                    </div>
+                </div>
+
+                <div class="div-parte3">
+                    <img src="Copia de adult-beach-beard-736716.jpg" alt="">
+                    <h3>Name: John Doe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">View Profile>></a>
+                    </div>
+                </div>
+
+                <div class="div-parte3">
+                    <img src="Copia de adult-beard-boy-220453.jpg" alt="">
+                    <h3>Name: John Doe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">View Profile>></a>
+                    </div>
+                </div>
+                <div class="div-parte3">
+                    <img src="Copia de beautiful-brunette-cute-774909.jpg" alt="">
+                    <h3>Name: John Doe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">View Profile>></a>
+                    </div>
+                </div>
+                <div class="div-parte3">
+                    <img src="Copia de face-facial-hair-fine-looking-614810.jpg" alt="">
+                    <h3>Name: John Doe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis
+                        labore
+                        eveniet
+                        ullam voluptatibus doloribus fuga ipsum cumque.
+                    </p>
+                    <div class="read-more">
+                        <a href="">View Profile>></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div id="LATESTWORK">
+                
+                    <h3>LATEST WORK</h3>
+                
+            </div>
+            <div id="PARTE4">
+
+                <div class="div-parte4">
+                    <img src="Copia de ancient-archaeology-architecture-678638.jpg" alt="">
+
+                </div>
+                <div class="div-parte4">
+                    <img src="Copia de abandoned-ancient-antique-672630.jpg" alt="">
+
+                </div>
+                <div class="div-parte4">
+                    <img src="Copia de aerial-view-aged-ancient-678634.jpg" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <hr />
+
+    <footer>
+        <div id="footermain">
+            <div>
+                <h3>Latest From the Blog</h3>
+                <div class="PRIMERACOLUMNA">
+                    <div>
+                        <img src="Copia de ancient-antique-archaeology-355187.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi odio quod tempore esse neque
+                            debitis quibusdam error obcaecati asperiores enim.
+                        </p>
+                    </div>
+                </div>
+                <div class="PRIMERACOLUMNA">
+                    <img src="Copia de ancient-archaeology-architecture-248218.jpg" alt="">
+                    <div>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sint eum. Quidem quae
+                            impedit ducimus sint aspernatur quod nostrum sit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="columna2">
+                <div>
+                    <h3>Company Details</h3>
+                    <p>Company Name</p>
+                    <p>Street Name & Number</p>
+                    <p>Town</p>
+                    <p>Postcode/Zip</p>
+                    <br />
+                    <p>Tel: xxxxx xxxxxxxxxx</p>
+                    <p>Fax: xxxxx xxxxxxxxxx</p>
+                    <p>Email: contact@mydomain.com</p>
+                </div>
+                <div>
+                    <h5>Office Hours</h5>
+                    <p>Monday-Friday: 08:00-17:30</p>
+                    <p>Saturday: 09:00-13:00</p>
+                </div>
+                <div>
+                    <h5>Contact Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptatibus optio dignissimos
+                        temporibus assumenda eaque aperiam porro reiciendis, aut rem maxime vero ducimus, excepturi
+                        totam veniam earum exercitationem nam soluta!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr id="hr" />
+        <div id="copy">
+            <p>Copyright © 2013 - All Rights Reserved - Domain Name</p>
+            <p>Template by OS Templates</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+
+</html>
